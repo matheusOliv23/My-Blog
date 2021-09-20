@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="shortcut icon" href="./assets/img/fav.png" />
+    <title>forEach</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container nav">
+        <a href="#" class="logo">&lt;FRONT&frasl;&gt;</a>
+        <div class="menu">
+          <ul class="nav">
+            <li><a href="./index.html" class="title">Artigos</a></li>
+            <li><a href="#autor" class="title">Sobre Mim</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="container">
+        <div class="img">
+          <div class="text">
+            <h1>Método: forEach() <map></map></h1>
+          </div>
+        </div>
+
+        <section class="section" id="artigo">
+          <div class="container grid">
+            <h1>.forEach()</h1>
+            <article class="article">
+              Caso precise executar algum código para iterar elementos, é mais
+              fácil executar um <strong>.forEach()</strong> do que fazer um
+              <strong>for</strong> ou <strong>while</strong>.
+            </article>
+            <img
+              src="./assets/img/forEach.png"
+              alt="exemplo de codigo"
+              class="img-article"
+            />
+            <article class="article">
+              No exemplo acima, criamos um array de números. Veja como foi
+              simples utilizar o método <strong>.forEach</strong> para percorrer
+              cada elemento do array e dobrar o seu valor.
+              <article class="article">
+                Pode facilitar muito a sua vida utilizar ela ao invés do
+                <strong>for</strong>.
+              </article>
+            </article>
+            <article class="article">
+              O <strong>.forEach()</strong> possui três parâmetros. São eles: o
+              <strong>valor</strong> do elemento, o <strong>índice</strong> do
+              elemento e o <strong>array</strong> que está sendo percorrido.
+            </article>
+
+            <h1>Conclusão</h1>
+            <article class="article">
+              Vimos como utilizar o <strong>forEach</strong> para percorrer os
+              valores de um array de maneira descomplicada. Utilize a
+              <a
+                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+                target="_blank"
+                ><strong>documentação</strong></a
+              >
+              caso precise de mais informações. O link te redicionará à uma nova
+              página sem sair da atual.
+            </article>
+            <a href="./index.html" class="next-page">Página principal -></a>
+
+            <div id="autor" class="container autor">
+              <div class="img-autor"></div>
+              <div class="description">
+                <h2>Autor: Matheus H Oliveira</h2>
+                <p>Cursando Análise e Desenv. de Sistemas</p>
+                <p>Desenvolvedor Front-End React</p>
+                <p>
+                  Apaixonado por programação, tecnologia, jogos, música, viagem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer id="footer">
+        <h4>Site desenvolvido por Matheus H Oliveira</h4>
+        <h4>Todos os direitos reservados</h4>
+      </footer>
+    </main>
+
+    <div>
+      <a href="#container" class="back-to-top"
+        ><i class="icon-arrow-up-circle"></i
+      ></a>
+    </div>
+  </body>
+</html>
