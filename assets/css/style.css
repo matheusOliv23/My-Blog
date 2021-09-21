@@ -32,13 +32,16 @@ nav{
   background-color: #181d1f;  
  
 }
+#artigo1{
+  display: none;
+}
 
 h1{
   color: #181d1f;
   font-size: 2rem;
 }
 strong{
-  color: #181d1f;
+  color: #0776a1;
 }
 .article{
   line-height: 2rem;
