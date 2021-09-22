@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&family=Roboto:wght@100;400;700&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+strong {
+  color: #0776a1;
+}
+
+#artigo1 {
+  display: none;
+}
+
+#artigo2 {
+  display: none;
+}
+
+#artigo3 {
+  display: none;
+}
+
+#artigo4 {
+  display: none;
+}
+
+#artigo5 {
+  display: none;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* ====NAV BAR=====*/
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.title-main {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-color: #181d1f;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .title:hover {
+  color: #0776a1;
+  cursor: pointer;
+}
+
+nav .title {
+  margin-top: 1rem;
+}
+
+nav .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .title {
+  color: white;
+}
+
+.logo {
+  color: #0776a1;
+  font-weight: bold;
+  font-size: 2rem;
+  /* ======CARDS======*/
+}
+
+#cards h2:hover {
+  color: #0776a1;
+  cursor: pointer;
+}
+
+#cards h2 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.img-card {
+  background-image: url(../img/sasithon-prehofer-pixabay.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 10rem;
+  width: 10rem;
+  margin: 1rem;
+}
+
+.card-text {
+  margin: 2rem;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.custom-card {
+  background-color: #181d1f;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  border: 2px solid #0776a1;
+  margin-top: 2rem;
+}
+
+.card-5 {
+  margin-bottom: 5rem;
+}
+
+/*====ARTICLES====*/
+#artigo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.publication {
+  margin-bottom: 1rem;
+}
+
+.description p {
+  margin: 1rem;
+  text-align: center;
+}
+
+.article {
+  line-height: 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: start;
+}
+
+.img-article {
+  width: 21rem;
+  height: auto;
+}
+
+.img {
+  background-color: yellow;
+  width: 100%;
+  height: 200px;
+}
+
+.text {
+  width: 100%;
+  position: absolute;
+  color: #181d1f;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.img-2 {
+  color: #fff;
+}
+
+.title-main {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.next-page {
+  color: #181d1f;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: start;
+  font-weight: bold;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*====AUTOR=====*/
+#autor .description h2 {
+  color: #0776a1;
+}
+
+.autor {
+  background-color: #181d1f;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.img-autor {
+  background-image: url(../img/matheus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 2rem;
+}
+
+/*===FOOTER====*/
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: #181d1f;
+  height: 100px;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+/*========MEDIA QUERIES=========*/
+@media (max-width: 576px) {
+  #autor h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-card {
+    height: 2rem;
+    margin-bottom: 0;
+  }
+  .card-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .card-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .card-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .card-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .card-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  #autor h2 {
+    text-align: center;
+  }
+  .img-article {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  #artigo {
+    width: 800px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .custom-card {
+    width: 800px;
+  }
+  .autor {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 800px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fff;
+    color: #181d1f;
+    font-weight: bold;
+    border: #0776a1 2px solid;
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
