@@ -170,6 +170,11 @@ nav .title{
 .custom{
   background-color: #181d1f; 
   color: #fff;
+  display: flex;
+  width: 100%;
+  height: auto;
+  border: 2px solid #0776a1;
+  margin-top: 2rem; 
 }
 #cards h2:hover{
   color: #0776a1;
@@ -266,7 +271,7 @@ nav .title{
 
 
 @media (min-width: 600px){
-  .custom{
+  .custom-card{
     width: 800px;
   }    
   .autor {
