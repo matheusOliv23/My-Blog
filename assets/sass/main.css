@@ -303,6 +303,10 @@ nav .title {
 }
 
 @media (min-width: 768px) {
+  .logo {
+    margin-top: 1rem;
+    text-align: center;
+  }
   #artigo {
     width: 800px;
     -webkit-box-orient: vertical;
